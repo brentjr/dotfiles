@@ -1,0 +1,15 @@
+"           Colors      Bright Colors
+" Black     #4E4E4E     #7C7C7C
+" Red       #FF6C60     #FFB6B0
+" Green     #A8FF60     #CEFFAB
+" Yellow    #FFFFB6     #FFFFCB
+" Blue      #96CBFE     #FFFFCB
+" Magenta   #FF73FD     #FF9CFE
+" Cyan      #C6C5FE     #DFDFFE
+" White     #EEEEEE     #FFFFFF
+
+" Selection #7389C5
+" Text      #D6D6D6
+" Backgroud #262626
+
+" Font      Consolas 13pt
