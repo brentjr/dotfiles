@@ -5,7 +5,7 @@
 " Yellow    #FFFFB6     #FFFFCB
 " Blue      #96CBFE     #FFFFCB
 " Magenta   #FF73FD     #FF9CFE
-" Cyan      #C6C5FE     #DFDFFE
+" Cyan      #966FD6     #DFDFFE
 " White     #EEEEEE     #FFFFFF
 
 " Selection #7389C5
