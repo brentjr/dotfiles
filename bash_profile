@@ -1,7 +1,7 @@
 # MacPorts
 export PATH="$(brew --prefix coreutils)/libexec/gnubin:/usr/local/bin:$PATH"
 
-export PS1='[ \[\e[0m\]\u\[\e[m\]@\[\e[0m\]\h\[\e[m\] \[\e[0;35m\]\w\[\e[m\] ] \[\e[0m\]'
+export PS1='\[\e[34m\][\[\e[m\] \[\e[34m\]\u@\h\[\e[m\] \[\e[0;35m\]\w\[\e[m\] \[\e[34m\]]\[\e[m\] \[\e[0m\]'
 
 if [ -f ~/.git-completion.bash ]; then
 	source ~/.git-completion.bash
