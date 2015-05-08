@@ -9,7 +9,7 @@ fi
 
 if [ -f ~/.git-prompt.sh ]; then
   source ~/.git-prompt.sh
-  export PS1='[ \[\e[0m\]\u\[\e[m\]@\[\e[0m\]\h\[\e[m\]  \[\e[0;35m\]\w\[\e[m\] \[\e[0m\]$(__git_ps1 "(%s)")\[\e[m\]] \[\e[0m\]'
+  export PS1='\[\e[34m\][\[\e[m\] \[\e[34m\]\u@\h\[\e[m\] \[\e[0;35m\]\w\[\e[m\] \[\e[34m\]$(__git_ps1 "(%s)")\[\e[m\]\[\e[34m\]]\[\e[m\] \[\e[0m\]'
 fi
 
 if [ "$TERM" != "dumb" ]; then
