@@ -3,14 +3,11 @@ set nocompatible
 filetype indent plugin on "Enable plugins
 syntax on "Enable syntax highlighting
 
-
 set hidden "switch from unsabed buffer without saving, undo history for mult files
 set confirm "??
 set wildmenu "Better cmd line completion
 set showcmd "Show partial cmds in th elast line of screen
 set hlsearch "highlights searches. turn off highlighiting with <C-L>
-
-
 
 set backspace=indent,eol,start "bckspcing over autoindent, line brks and start of insert action
 set nostartofline "stop certain actions from going to beginning of line
@@ -23,6 +20,7 @@ set linespace=2
 set t_Co=256
 
 set mouse=a "use mouse in all modes
+set mouse-=a "use mouse in all modes
 set cmdheight=2 "set cmd window height to 2 lines to aboid awk press <enter> to continue
 set number "display line numbers on left
 set mousehide "hide mouse while typing
@@ -35,22 +33,12 @@ set scrolloff=3
 set notimeout ttimeout ttimeoutlen=200 "quickly time out keybodes, never on mappings
 set pastetoggle=<F11> "use F11 to toggle between paste and nopaste
 
-
-
-" "------------------------------------------------------------
-" " Indentation options {{{1
-" "
-" " Indentation settings according to personal preference.
-"
-" " Indentation settings for using 2 spaces instead of tabs.
-" " Do not change 'tabstop' from its default value of 8 with this setup.
 set ts=4 sts=4 sw=4 expandtab 
 
 nmap <F9> :NERDTreeToggle<CR>
 
 ino jk <Esc>
 cno jk <C-C>
-
 
 syntax enable
 set background=dark
